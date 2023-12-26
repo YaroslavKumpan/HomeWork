@@ -1,6 +1,6 @@
 import time
 
-def (n, lengths):
+def collatz_sequence_length(n, lengths):
     if n == 1:
         return 1
     if n < len(lengths) and lengths[n] != 0:
